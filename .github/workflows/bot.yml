@@ -35,7 +35,7 @@ jobs:
           arr[4]="bot: 😪 Hufft..."
           arr[5]="bot: 😎 I'm working for my phone!"
           arr[6]="bot: 🙄 Running task, again."
-          arr[7]="bot: 👻 Thanks phone."
+          arr[7]="bot: 👻 Thanks phone Hahaha."
 
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           rand=$[$RANDOM % ${#arr[@]}]
