@@ -3,7 +3,7 @@ name: Kang Commit
 on:
   push:
     branches:
-      - Pwd
+      - Pwd1
       
   schedule:
     - cron: "1 * * * *"
