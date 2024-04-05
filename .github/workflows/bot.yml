@@ -6,7 +6,7 @@ on:
       - Pwd1
       
   schedule:
-    - cron: "1 * * * *"
+    - cron: "0-10 * * * *"
 
 jobs:
   auto-commit:
