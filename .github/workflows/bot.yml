@@ -3,10 +3,10 @@ name: Kang Commit
 on:
   push:
     branches:
-      - Pwd
+      - Pwd1
       
   schedule:
-    - cron: "0-10 * * * *"
+    - cron: "0-11 * * * *"
 
 jobs:
   auto-commit:
