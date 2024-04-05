@@ -1,12 +1,6 @@
 # Tukang Commit
-[![Tukang Commit](https://github.com/xyzuan/commit-gen/actions/workflows/bot.yml/badge.svg)](https://github.com/xyzuan/commit-gen/actions/workflows/bot.yml)
+[![Kang Commit](https://github.com/RismaYNT/Commit-Gen/actions/workflows/bot.yml/badge.svg)](https://github.com/RismaYNT/Commit-Gen/actions/workflows/bot.yml)
 A bot that can make your Github stats green with scheduled auto commit.
-
-## How to use
-- Clone or fork this repo.
-- Activate Github Actions.
-- Change the `email` and `name` information on file `.github/workflows/bot.yml`.
-- Change the scheduling time on file `bot.yml`. **Example: You can try to run it in every hour with string `1 * * * *`**.
 
 ## LICENSE
 MIT
