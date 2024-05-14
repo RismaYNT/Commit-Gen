@@ -41,7 +41,6 @@ jobs:
           rand=$[$RANDOM % ${#arr[@]}]
 
           git commit -m "Signed-off-by: RismaYNT
-          git commit -am "${arr[$rand]} (at ${d})"
           
       - name: GitHub Push
         uses: ad-m/github-push-action@master
