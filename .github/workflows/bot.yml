@@ -24,7 +24,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "143306894+RismaYNT@users.noreply.github.com"
+          git config --local user.email "ukepurwadi01@gmail.com"
           git config --local user.name "RismaYNT"
           git add -A
 
@@ -40,7 +40,7 @@ jobs:
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           rand=$[$RANDOM % ${#arr[@]}]
 
-          git commit -m "Signed-off-by: RismaYNT <143306894+RismaYNT@users.noreply.github.com>
+          git commit -m "Signed-off-by: RismaYNT <ukepurwadi01@gmail.com>
           git commit -am "${arr[$rand]} (at ${d})"
           
       - name: GitHub Push
