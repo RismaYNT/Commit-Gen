@@ -39,8 +39,6 @@ jobs:
 
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           rand=$[$RANDOM % ${#arr[@]}]
-
-          git commit -m "Signed-off-by: RismaYNT
           
       - name: GitHub Push
         uses: ad-m/github-push-action@master
